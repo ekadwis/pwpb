@@ -1,0 +1,226 @@
+body {
+    background: rgba(0, 0, 0, 0.75);
+    background-attachment: fixed;
+  
+}
+
+.container {
+    margin: auto;
+    width: 300px;   
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+    background: linear-gradient(to left bottom, #FEC053, #EE243F, #AC3C96, #5655A4);
+    margin-top: 60px;
+    box-shadow: 0 0 5px 5px #ffffff;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Lexend Deca', arial, sans-serif;
+}
+
+.ftxt input {
+    padding: 10px 0px 10px 10px;
+    background: rgba(0, 0, 0, 0);
+    border: white;
+    border-bottom-style: solid;
+    width: 39%;
+    margin-left: 30px;
+    outline-style: none;
+}
+
+.ftext input {
+    padding: 10px 0px 10px 10px;
+    background: rgba(0, 0, 0, 0);
+    border: white;
+    border-bottom-style: solid;
+    width: 85%;
+    margin-left: 30px;
+    outline-style: none;
+}
+
+label {
+    font-size: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: lighter;   
+}
+
+select {
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-image: url(img/world.jpg);
+    background-size: cover;
+}
+
+select option {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit {
+    background: linear-gradient(#00cccc, #0099cc);
+    padding: 7px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0px 0px 200px;
+}
+
+.submit a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.submit a:hover {
+    color: brown;
+}
+
+.cancel a:hover {
+    color: deepskyblue;
+}
+
+
+
+.cancel {
+    background: linear-gradient(#ff0000, #ff3300);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 7px;
+    margin-top: 3px;
+    position: absolute;
+}
+
+.cancel a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+input::-webkit-input-placeholder {
+    color: black;
+    font-size: 14px;
+}
+
+.ftxt i {
+    top: 187px;
+    position: absolute; 
+    font-size: 23px; 
+    left: 523px;
+}
+
+.ftext i {
+    top: 298px;
+    position: absolute; 
+    font-size: 23px; 
+    left: 523px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+p a {
+    text-decoration: none;
+    color: blue;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.email input {
+    padding: 10px 0px 10px 10px;
+    background: rgba(0, 0, 0, 0);
+    border: white;
+    border-bottom-style: solid;
+    width: 85%;
+    margin-left: 30px;
+    outline-style: none;
+}
+
+.email i {
+    top: 243px;
+    position: absolute; 
+    font-size: 23px; 
+    left: 523px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to left bottom, #FEC053, #EE243F, #AC3C96, #5655A4);
+    position: absolute;
+    left: 635px;
+    top: 10px;
+    box-shadow: 0 0 3px 3px #ffffff;
+}
+
+.checkbox a {
+    text-decoration: none;
+}
+
+.checkbox a:hover {
+    text-decoration: underline;
+}
+
+.lname {
+padding: 10px 0px 10px 10px;
+background: rgba(0, 0, 0, 0);
+border: white;
+border-bottom-style: solid;
+width: 119px;
+top: 183px;
+outline-style: none;
+position: absolute;
+left: 700px;
+}
+
+input::-webkit-file-upload-button {
+     padding: 3px;
+     background: linear-gradient(to left top, aqua, salmon);
+     border-radius: 6px;
+     border: none;
+     position: absolute;
+     top: 408px;
+     left: 590px;
+}
+
+.file {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px; 
+}
+
+.au {
+	text-decoration: none;
+	display: inline-block;
+    margin-top: -280px;
+    margin-left: 60px;
+    color: red;
+    position: absolute;
+}
+
+.au:hover {
+	text-decoration: underline;
+}
+
+.ai {
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 10px;
+    float: right;
+    color: red;
+    margin-top: -280px;
+    margin-right: 60px;
+}
+
+.ai:hover {
+	text-decoration: underline;
+}
